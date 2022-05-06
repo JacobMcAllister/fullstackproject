@@ -1,19 +1,8 @@
-# InClass
+InClass Continuation for Semster project.
+This application will populate 20 users which you can alter in the seeds file if needed:
 
-To start your Phoenix server:
-
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
-
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
-
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
-
-## Learn more
-
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
+Uses the Zipapi API
+Logic is in the developers_controller
+Value is called in the show.html.heex for developers
+@developers.values["data"}["city] is how we call the nested value.
+Now you can visit localhost:4000 from your browser.
